@@ -7,5 +7,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],  // ⬅️ add this line
+  plugins: [require("daisyui")
+  ],
+  daisyui: {
+    themes: ["light", "dark", "cupcake", "autumn"],
+  },
 };

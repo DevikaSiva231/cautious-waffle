@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
     return(
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar shadow-sm">
         <div className="navbar-start">
             <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -18,7 +18,7 @@ function Navbar() {
             </div>
         </div>
         <div className="navbar-center">
-            <a className="btn btn-ghost text-xl">daisyUI</a>
+            <a className="btn btn-ghost text-xl">PortPort</a>
         </div>
         <div className="navbar-end">
             <button className="btn btn-ghost btn-circle">

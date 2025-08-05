@@ -4,6 +4,12 @@ import './index.css'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Layout from './layout'
 import App from './App'
+import Home from './pages/home.jsx'
+import Landingpage from './pages/landingpage.jsx'
+import Aboutme from './pages/aboutme.jsx'
+import Categories from './pages/categories'
+import Galleria from './pages/galleria'
+import Artpage from './pages/artpage.jsx'
 
 const router=createBrowserRouter([
   {
@@ -11,6 +17,11 @@ const router=createBrowserRouter([
     element:<Layout/>,
     children:[
       {path:"/",element:<App/>},
+      {path:"/home",element:<Home/>},
+      {path:"/portfolio",element:<Landingpage/>},
+      {path:"/aboutme",element:<Aboutme/>},
+      {path:"/galleria",element:<Galleria/>},
+      {path:"/myart",element:<Artpage/>},
     ]
 
   }
