@@ -17,9 +17,35 @@ export default function App() {
       </div>
     </div>
     <div className="relative h-84 p-12">
-      <div className="w-full text-center text-lg font-semibold">- - - Categories - - -</div>
-    </div>
+    <div className="space-y-20">
+        <div className="w-full text-center text-lg font-semibold">
+          - - - Categories - - -
+        </div>
 
+        <div className="relative grid grid-cols-4 gap-4 p-4">
+          <div className="bg-gray-200 h-[85vh] rounded-lg">Image 1</div>
+          <div className="bg-gray-200 h-[85vh] rounded-lg">Image 2</div>
+          <div className="bg-gray-200 h-[85vh] rounded-lg">Image 3</div>
+          <div className="bg-gray-200 h-[85vh] rounded-lg">Image 4</div>
+
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white shadow-lg px-32 py-4 z-10">
+            <h2 className="text-xl font-bold text-center">Title Card</h2>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-4 gap-4 p-4">
+          <div className="col-span-3 bg-gray-200">Image 1</div>
+          <div className="bg-gray-200 h-[85vh]">Card</div>
+        </div>
+
+        <div className="grid grid-cols-3 gap-4 p-4">
+          <div className="bg-gray-200 h-[85vh] rounded-lg">Image 1</div>
+          <div className="bg-gray-200 h-[85vh] rounded-lg">Image 2</div>
+          <div className="bg-gray-200 h-[85vh] rounded-lg">Image 3</div>
+        </div>
+
+      </div>
+    </div>
   </div>
   )
 }
