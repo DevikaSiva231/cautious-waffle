@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-from .views import ProjectView, ItemView
+from .views import ProjectView, ItemView, hello
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -10,7 +10,7 @@ urlpatterns = [
     path('items/', ItemView.as_view(), name='item-list'),
     path('projects/<int:pk>/', ProjectView.as_view(), name='project-detail'),
     path('items/<int:pk>/', ItemView.as_view(), name='item-detail'),
-
+    path("api/hello/", hello),
 ]
 
 if settings.DEBUG:

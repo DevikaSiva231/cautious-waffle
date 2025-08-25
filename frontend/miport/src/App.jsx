@@ -29,7 +29,7 @@ export default function App() {
           <div className="bg-gray-200 h-[85vh] rounded-lg">Image 4</div>
 
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white shadow-lg px-32 py-4 z-10">
-            <h2 className="text-xl font-bold text-center">Title Card</h2>
+            <h2 className="text-xl font-bold text-center">Sketch Art</h2>
           </div>
         </div>
 
